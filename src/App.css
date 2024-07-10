@@ -1,0 +1,17 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.drum-pads{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.drum-pad{
+  border: .1rem solid black;
+  padding: 2rem;
+  cursor: pointer;
+}
